@@ -1,10 +1,10 @@
 # Spacexdata.API.V4.Integration.Front.Web
 
 This project is a web frontend application built with React and TypeScript, designed to work with the backend application.
+
 <div style="text-align:center">
     <img alt="Project banner" src="./documentation/banner.png" />
 </div>
-
 
 ## Introduction
 
@@ -53,11 +53,13 @@ This will start the development server and open the web app in your default brow
 To build the Docker image for the React TypeScript web frontend, follow these steps:
 
 1. Build the Docker image using the following command:
+
    ```shell
    docker build -t spacexdata-integration-frontweb .
    ```
 
 2. Run the Docker container with the following command:
+
    ```shell
    docker run -p 3000:3000 spacexdata-integration-frontweb
    ```
