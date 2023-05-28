@@ -7,9 +7,8 @@ import {
   styled,
   useTheme
 } from '@mui/material';
-import { Link } from 'react-router-dom';
 
-const LogoWrapper = styled(Link)(
+const LogoWrapper = styled('div')(
   ({ theme }) => `
         color: ${theme.palette.text.primary};
         display: flex;
@@ -102,7 +101,7 @@ function Logo() {
       title="SpaceX management UI"
       arrow
     >
-      <LogoWrapper to="/launches/past">
+      <LogoWrapper>
         <Badge
           sx={{
             '.MuiBadge-badge': {

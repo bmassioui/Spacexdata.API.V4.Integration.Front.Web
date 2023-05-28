@@ -3,7 +3,7 @@
   "background_color": "#f2f5f9",
   "display": "standalone",
   "start_url": ".",
-  "short_name": "Tokyo Free White",
+  "short_name": "SpaceX UI Tool",
   "name": "SpaceX management UI",
   "icons": [
     {

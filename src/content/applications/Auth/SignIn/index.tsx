@@ -1,8 +1,8 @@
 import { Box, Container, Card } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
-
 import { styled } from '@mui/material/styles';
 import Logo from 'src/components/LogoSign';
+import Content from './Content';
 
 const SignOutWrapper = styled(Box)(
   () => `
@@ -24,7 +24,7 @@ function SignIn() {
           <Logo />
         </Box>
         <Card sx={{ p: 10, mb: 10, borderRadius: 12 }}>
-          SignIn form
+          <Content />
         </Card>
       </Container>
     </SignOutWrapper>

@@ -81,7 +81,7 @@ function Hero() {
         <Grid item md={10} lg={8} mx="auto">
           <LabelWrapper color="success">Version 4.0</LabelWrapper>
           <TypographyH1 sx={{ mb: 2 }} variant="h1">
-            SpaceX management UI
+            Welcome
           </TypographyH1>
           <TypographyH2
             sx={{ lineHeight: 1.5, pb: 4 }}
@@ -89,9 +89,7 @@ function Hero() {
             color="text.secondary"
             fontWeight="normal"
           >
-            High performance React template built with lots of powerful
-            Material-UI components across multiple product niches for fast &
-            perfect apps development processes
+            High performance management tool for SpaceX management UI, SignIn and explore our features
           </TypographyH2>
           <Button
             component={RouterLink}
