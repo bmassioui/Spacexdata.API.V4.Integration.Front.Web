@@ -1,10 +1,14 @@
-# React TypeScript Web Frontend
+# Spacexdata.API.V4.Integration.Front.Web
 
-This project is a web frontend built with React and TypeScript, designed to work with the backend application.
+This project is a web frontend application built with React and TypeScript, designed to work with the backend application.
+<div style="text-align:center">
+    <img alt="Project banner" src="./documentation/banner.png" />
+</div>
+
 
 ## Introduction
 
-This web frontend provides a user interface to interact with the backend application. It allows users to perform various actions, such as retrieving data, submitting forms, and displaying results.
+This web application provides a user interface to interact with the [backend application](https://github.com/bmassioui/Spacexdata.API.V4.Integration.ApiGateway). It is an UI management tool built to ease the visualization and readability of [SpaceX data](https://github.com/r-spacex/SpaceX-API/tree/master/docs#rspacex-api-docs).
 
 ## Getting Started
 
