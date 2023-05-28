@@ -28,8 +28,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --cache --max-warnings=0",
+    "lint:fix": "eslint src/**/*.ts{,x} --fix"
   },
   "eslintConfig": {
     "extends": [
