@@ -1,8 +1,7 @@
 import { Box, Button, Container, Grid, Typography } from '@mui/material';
-
 import { Link as RouterLink } from 'react-router-dom';
-
 import { styled } from '@mui/material/styles';
+import { LoginTwoTone } from '@mui/icons-material';
 
 const TypographyH1 = styled(Typography)(
   ({ theme }) => `
@@ -82,7 +81,7 @@ function Hero() {
         <Grid item md={10} lg={8} mx="auto">
           <LabelWrapper color="success">Version 4.0</LabelWrapper>
           <TypographyH1 sx={{ mb: 2 }} variant="h1">
-          SpaceX management UI
+            SpaceX management UI
           </TypographyH1>
           <TypographyH2
             sx={{ lineHeight: 1.5, pb: 4 }}
@@ -96,22 +95,12 @@ function Hero() {
           </TypographyH2>
           <Button
             component={RouterLink}
-            to="/launches/past"
+            to="/auth/signin"
             size="large"
             variant="contained"
+            startIcon={<LoginTwoTone />}
           >
-            Browse Live Preview
-          </Button>
-          <Button
-            sx={{ ml: 2 }}
-            component="a"
-            target="_blank"
-            rel="noopener"
-            href="https://bloomui.com/product/tokyo-free-white-react-typescript-material-ui-admin-dashboard"
-            size="large"
-            variant="text"
-          >
-            Key Features
+            Sign In to SpaceX UI
           </Button>
           <Grid container spacing={3} mt={5}>
             <Grid item md={6}>

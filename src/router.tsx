@@ -29,6 +29,14 @@ const LaunchDetails = Loader(
   lazy(() => import('src/content/applications/Launches/Details'))
 );
 
+// Applications
+const SignIn = Loader(
+  lazy(() => import('src/content/applications/Auth/SignIn'))
+);
+const SignOut = Loader(
+  lazy(() => import('src/content/applications/Auth/SignOut'))
+);
+
 // Status
 
 const Status404 = Loader(
@@ -85,6 +93,19 @@ const routes: RouteObject[] = [
       {
         path: '*',
         element: <Status404 />
+      },
+      {
+        path: 'auth',
+        children: [
+          {
+            path: 'signin',
+            element: <SignIn />
+          },
+          {
+            path: 'signout',
+            element: <SignOut />
+          }
+        ]
       }
     ]
   },
