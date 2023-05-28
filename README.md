@@ -86,10 +86,10 @@ npm run format
 ```
 
 2. ESLint
-   [ESLint](https://eslint.org/) is used for code linting. You can run the following command to lint the codebase:
+   [ESLint](https://eslint.org/) is used for code linting. You can run the following command to lint and fix the codebase:
 
 ```shell
-npm run lint
+npm run lint:fix
 ```
 
 #### License
