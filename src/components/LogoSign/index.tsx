@@ -99,10 +99,10 @@ function Logo() {
 
   return (
     <TooltipWrapper
-      title="Tokyo Free White React Typescript Admin Dashboard"
+      title="SpaceX management UI"
       arrow
     >
-      <LogoWrapper to="/overview">
+      <LogoWrapper to="/management/transactions">
         <Badge
           sx={{
             '.MuiBadge-badge': {
@@ -113,7 +113,7 @@ function Logo() {
           }}
           overlap="circular"
           color="success"
-          badgeContent="2.0"
+          badgeContent="4.0"
         >
           <LogoSignWrapper>
             <LogoSign>

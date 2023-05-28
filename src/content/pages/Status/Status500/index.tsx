@@ -115,7 +115,7 @@ function Status500() {
               <Container maxWidth="sm">
                 <Box textAlign="center">
                   <TypographyPrimary variant="h1" sx={{ my: 2 }}>
-                    Tokyo Free White React Typescript Admin Dashboard
+                  SpaceX management UI
                   </TypographyPrimary>
                   <TypographySecondary
                     variant="h4"
@@ -126,7 +126,7 @@ function Status500() {
                     Material-UI components across multiple product niches for
                     fast &amp; perfect apps development processes.
                   </TypographySecondary>
-                  <Button href="/overview" size="large" variant="contained">
+                  <Button href="/management/transactions" size="large" variant="contained">
                     Overview
                   </Button>
                 </Box>
