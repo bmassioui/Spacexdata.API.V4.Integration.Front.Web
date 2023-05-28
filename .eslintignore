@@ -1,18 +1,4 @@
-# Ignore build artifacts
-build/
-dist/
-out/
-
-# Ignore node_modules
+# .estlintignore file
+dist
+build
 node_modules/
-
-# Ignore specific files
-*.log
-.env
-.DS_Store
-
-# Ignore Dockerfile
-Dockerfile*
-
-# Environments
-.env
