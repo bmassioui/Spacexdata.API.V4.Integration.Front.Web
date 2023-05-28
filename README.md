@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# React TypeScript Web Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web frontend built with React and TypeScript, designed to work with the backend application.
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This web frontend provides a user interface to interact with the backend application. It allows users to perform various actions, such as retrieving data, submitting forms, and displaying results.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To get started with the React TypeScript web frontend, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Requirements
 
-### `npm test`
+- Node.js (version X.X.X)
+- npm (version X.X.X)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+1. Clone the repository - *main*:
 
-### `npm run build`
+   ```shell
+   git clone https://github.com/bmassioui/Spacexdata.API.V4.Integration.Front.Web
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+   ```shell
+    cd Spacexdata.API.V4.Integration.Front.Web
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies::
+   ```shell
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the App
+To run the web frontend locally, use the following command:
+```shell
+npm start   
+```
+This will start the development server and open the web app in your default browser. You can access it at http://localhost:3000.
 
-### `npm run eject`
+### Building for Production
+To build the web frontend for production, use the following command:
+```shell
+npm run build  
+```
+This will create an optimized production-ready build in the `build` directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Code Formatting and Linting
+1. Prettier
+[Prettier](https://prettier.io/) is used for code formatting. You can run the following command to format the codebase:
+```shell
+npm run format
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. ESLint
+[ESLint](https://eslint.org/) is used for code linting. You can run the following command to lint the codebase:
+```shell
+npm run lint
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### License
+[MIT License](https://opensource.org/license/mit/)
+```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Learn More
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
