@@ -126,7 +126,7 @@ function Status500() {
                     Material-UI components across multiple product niches for
                     fast &amp; perfect apps development processes.
                   </TypographySecondary>
-                  <Button href="/management/transactions" size="large" variant="contained">
+                  <Button href="/launches/past" size="large" variant="contained">
                     Overview
                   </Button>
                 </Box>

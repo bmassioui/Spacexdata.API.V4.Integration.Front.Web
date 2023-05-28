@@ -102,7 +102,7 @@ function Logo() {
       title="SpaceX management UI"
       arrow
     >
-      <LogoWrapper to="/management/transactions">
+      <LogoWrapper to="/launches/past">
         <Badge
           sx={{
             '.MuiBadge-badge': {

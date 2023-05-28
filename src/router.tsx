@@ -19,15 +19,14 @@ const Loader = (Component) => (props) =>
 const Overview = Loader(lazy(() => import('src/content/overview')));
 
 // Applications
-
-const Transactions = Loader(
-  lazy(() => import('src/content/applications/Transactions'))
+const PastLaunches = Loader(
+  lazy(() => import('src/content/applications/Launches/Past'))
 );
-const UserProfile = Loader(
-  lazy(() => import('src/content/applications/Users/profile'))
+const UpcomingLaunches = Loader(
+  lazy(() => import('src/content/applications/Launches/Upcoming'))
 );
-const UserSettings = Loader(
-  lazy(() => import('src/content/applications/Users/settings'))
+const LaunchDetails = Loader(
+  lazy(() => import('src/content/applications/Launches/Details'))
 );
 
 // Status
@@ -90,33 +89,24 @@ const routes: RouteObject[] = [
     ]
   },
   {
-    path: 'management',
+    path: 'launches',
     element: <SidebarLayout />,
     children: [
       {
         path: '',
-        element: <Navigate to="transactions" replace />
+        element: <Navigate to="past" replace />
       },
       {
-        path: 'transactions',
-        element: <Transactions />
+        path: 'past',
+        element: <PastLaunches />
       },
       {
-        path: 'profile',
-        children: [
-          {
-            path: '',
-            element: <Navigate to="details" replace />
-          },
-          {
-            path: 'details',
-            element: <UserProfile />
-          },
-          {
-            path: 'settings',
-            element: <UserSettings />
-          }
-        ]
+        path: 'upcoming',
+        element: <UpcomingLaunches />
+      },
+      {
+        path: 'details',
+        element: <LaunchDetails />
       }
     ]
   }

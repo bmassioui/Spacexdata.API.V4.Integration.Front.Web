@@ -96,7 +96,7 @@ function Hero() {
           </TypographyH2>
           <Button
             component={RouterLink}
-            to="/management/transactions"
+            to="/launches/past"
             size="large"
             variant="contained"
           >

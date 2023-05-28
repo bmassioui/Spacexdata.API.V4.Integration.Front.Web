@@ -69,7 +69,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/management/transactions"
+            to="/launches/past"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
