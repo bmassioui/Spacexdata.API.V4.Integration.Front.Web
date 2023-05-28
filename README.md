@@ -16,8 +16,8 @@ To get started with the React TypeScript web frontend, follow these steps:
 
 ### Requirements
 
-- Node.js (version X.X.X)
-- npm (version X.X.X)
+- Node.js (version ^18)
+- npm (version ^8)
 
 ### Installation
 
